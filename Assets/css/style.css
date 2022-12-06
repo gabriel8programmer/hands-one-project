@@ -16,6 +16,12 @@
 
 /* END CSS RESET */
 
+body {
+  background-image: url(../images/bolha-background.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
 /* CLASSIES */
 .container {
   display: flex;
@@ -27,7 +33,7 @@
 }
 
 .btn {
-  padding: 8px 30px;
+  padding: 5px 30px;
   border-radius: 50px;
   color: #fff;
 }
