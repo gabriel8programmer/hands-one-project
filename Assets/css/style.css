@@ -1,4 +1,6 @@
 @import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
 
 /* CSS RESET */
 * {
@@ -15,6 +17,15 @@
 /* END CSS RESET */
 
 /* CLASSIES */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
 .btn {
   padding: 8px 30px;
   border-radius: 50px;

@@ -1,0 +1,14 @@
+footer>ul {
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  padding: 0 60px;
+}
+
+footer ul li a img {
+  width: 30px;
+  height: 30px;
+}
