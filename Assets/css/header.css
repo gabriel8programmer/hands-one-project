@@ -1,15 +1,12 @@
-header {
+header section {
   justify-content: space-between;
   align-items: center;
-  padding: 30px 60px;
 }
 
 header ul li {
   margin: 0 15px;
-  font-size: 15px;
-  font-weight: 0;
 }
 
 header ul li a {
-  color: rgba(51, 153, 204, 0.607);
+  color: #39c;
 }
