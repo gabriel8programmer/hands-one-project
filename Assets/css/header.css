@@ -3,10 +3,14 @@ header section {
   align-items: center;
 }
 
-header ul li {
+header nav ul {
+  align-items: center;
+}
+
+header nav ul li {
   margin: 0 15px;
 }
 
-header ul li a {
+header nav ul li a {
   color: #39c;
 }
