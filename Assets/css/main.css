@@ -14,15 +14,18 @@
   line-height: 90%;
 }
 
+.content-with-image article h2,
+.content-with-image article p {
+  color: #39c;
+}
+
 .content-with-image article h2 {
   font-size: 30px;
-  color: #39c;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-top: 10px;
 }
 
 .content-with-image article p {
-  color: #39c;
   margin: 20px 0 40px 0;
 }
