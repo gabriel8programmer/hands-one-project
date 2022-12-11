@@ -6,6 +6,8 @@ header section {
 header section nav ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 header section nav ul li {
