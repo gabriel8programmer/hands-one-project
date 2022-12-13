@@ -1,9 +1,13 @@
+@mixin btn-style ($background, $color) {
+  background: $background;
+  color: $color;
+}
+
 .btn {
   padding: 5px 30px;
   border-radius: 50px;
 
   &.btn-orange {
-    background-color: #f63;
-    color: #fff;
+    @include btn-style($color-primary, $color-white);
   }
 }

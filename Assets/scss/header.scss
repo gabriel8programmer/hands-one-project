@@ -1,19 +1,48 @@
-header section {
-  justify-content: space-between;
-  align-items: center;
+//header
+header {
+
+  //section
+  section {
+    justify-content: space-between;
+    align-items: center;
+
+    //nav
+    nav {
+
+      //ul
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        //li
+        li {
+          margin: 0 15px;
+
+          //a
+          a {
+            color: $color-terciary;
+          }
+
+          //end a
+
+        }
+
+        //end li
+
+
+      }
+
+      //end ul
+
+    }
+
+    //end nav
+
+  }
+
+  //end section 
 }
 
-header section nav ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-header section nav ul li {
-  margin: 0 15px;
-}
-
-header section nav ul li a {
-  color: #39c;
-}
+//end header

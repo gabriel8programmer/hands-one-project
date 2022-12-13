@@ -14,24 +14,36 @@
   }
 
   body {
-    background-color: #b1f4ff;
+    background-color: $color-background;
   }
 
-  header section nav {
-    margin: 30px 0;
+  header {
+    section {
+      nav {
+        margin: 30px 0;
+      }
+    }
   }
 
-  .content-with-image article {
-    width: 100%;
+  .content-with-image {
+    article {
+      width: 100%;
+    }
   }
 
-  .content-with-image figure img {
-    width: 600px;
+  .content-with-image {
+    figure {
+      img {
+        width: 600px;
+      }
+    }
   }
 
-  footer ul.row {
-    flex-direction: row;
-    justify-content: center;
+  footer {
+    ul.row {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 }
 
@@ -40,9 +52,13 @@
     width: 400px;
   }
 
-  .content-with-image figure img {
-    width: 100%;
-    margin: 30px 0 10px 0;
+  .content-with-image {
+    figure {
+      img {
+        width: 100%;
+        margin: 30px 0 10px 0;
+      }
+    }
   }
 }
 
@@ -51,18 +67,22 @@
     width: 300px;
   }
 
-  header section nav {
-    background-color: #fff;
-    width: 100%;
-    padding: 10px 0 30px 0;
-    box-shadow: 0px 10px 40px #0002;
-  }
+  header {
+    section {
+      nav {
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 0 30px 0;
+        box-shadow: 0px 10px 40px #0002;
 
-  header section nav ul {
-    flex-direction: column;
-  }
+        ul {
+          flex-direction: column;
 
-  header section nav ul li {
-    margin: 10px 0;
+          li {
+            margin: 10px 0;
+          }
+        }
+      }
+    }
   }
 }

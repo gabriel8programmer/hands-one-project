@@ -1,17 +1,1 @@
-/* Error: @use rules must be written before any other rules.
- *   ,
- * 2 | @use "./bootstrap";
- *   | ^^^^^^^^^^^^^^^^^^
- *   '
- *   Assets\scss\style.scss 2:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: @use rules must be written before any other rules.\a   \2577 \a 2 \2502  @use "./bootstrap";\d\a   \2502  ^^^^^^^^^^^^^^^^^^\a   \2575 \a   Assets\\scss\\style.scss 2:1  root stylesheet';
-}
+@import'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap';*{padding:0;margin:0;border:none;font-size:100%;list-style-type:none;text-decoration:none;font-weight:300;font-family:"Source Sans Pro",sans-serif;vertical-align:baseline}body{background-image:url("../images/bolha-background.png");background-repeat:no-repeat;background-position:left center}.container{width:1024px;margin:30px auto;display:flex;flex-direction:column}.row{display:flex;flex-direction:row}.btn{padding:5px 30px;border-radius:50px}.btn.btn-orange{background:#f63;color:#fff}header section{justify-content:space-between;align-items:center}header section nav ul{display:flex;flex-direction:row;align-items:center;justify-content:center}header section nav ul li{margin:0 15px}header section nav ul li a{color:#39c}.content-with-image{align-items:center;justify-content:space-between}.content-with-image article{width:250px}.content-with-image article h1{color:#336;font-size:70px;font-weight:500;line-height:90%}.content-with-image article h2,.content-with-image article p{color:#39c}.content-with-image article h2{font-size:30px;text-transform:uppercase;letter-spacing:3px;line-height:200%}.content-with-image article p{margin:20px 0 30px}.content-with-image figure img{width:700px}footer ul li{margin:0 30px 0 0}footer ul li a img{width:30px}@media(max-width: 1900px){body{background-size:850px}}@media(max-width: 1750px){body{background-size:800px}}@media(max-width: 1550px){body{background-size:700px}}@media(max-width: 1326px){body{background-size:600px}}@media(max-width: 1100px){body{background-position-x:-100px}}@media(max-width: 1150px){.container{width:900px}}@media(max-width: 930px){.container{width:600px}.row{flex-direction:column}body{background-color:#b1f4ff}header section nav{margin:30px 0}.content-with-image article{width:100%}.content-with-image figure img{width:600px}footer ul.row{flex-direction:row;justify-content:center}}@media(max-width: 650px){.container{width:400px}.content-with-image figure img{width:100%;margin:30px 0 10px 0}}@media(max-width: 450px){.container{width:300px}header section nav{background-color:#fff;width:100%;padding:10px 0 30px 0;box-shadow:0px 10px 40px rgba(0,0,0,.1333333333)}header section nav ul{flex-direction:column}header section nav ul li{margin:10px 0}}/*# sourceMappingURL=style.min.css.map */
