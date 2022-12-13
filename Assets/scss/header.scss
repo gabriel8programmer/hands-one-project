@@ -1,0 +1,48 @@
+//header
+header {
+
+  //section
+  section {
+    justify-content: space-between;
+    align-items: center;
+
+    //nav
+    nav {
+
+      //ul
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        //li
+        li {
+          margin: 0 15px;
+
+          //a
+          a {
+            color: $color-terciary;
+          }
+
+          //end a
+
+        }
+
+        //end li
+
+
+      }
+
+      //end ul
+
+    }
+
+    //end nav
+
+  }
+
+  //end section 
+}
+
+//end header

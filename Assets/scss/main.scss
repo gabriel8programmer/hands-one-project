@@ -1,0 +1,58 @@
+//content with-image
+.content-with-image {
+  align-items: center;
+  justify-content: space-between;
+
+  //article
+  article {
+    width: 250px;
+
+    //h1
+    h1 {
+      color: $color-secundary;
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 90%;
+    }
+
+    //end h1
+
+    //h2 and p
+    h2,
+    p {
+      color: $color-terciary;
+    }
+
+    h2 {
+      font-size: 30px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 200%;
+    }
+
+    p {
+      margin: 20px 0 30px;
+    }
+
+    //end h2 and p
+
+  }
+
+  //end article
+
+  //figure
+  figure {
+
+    //img
+    img {
+      width: 700px;
+    }
+
+    //end img
+
+  }
+
+  //end figure
+}
+
+//end content with-image
